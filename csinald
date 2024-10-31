@@ -31,8 +31,6 @@ do
 	grep '^[a-z][a-z]*$'
 done |
 grep -vE '^(vissza|szerte|szembe|helyre|egybe|ellen|bele|haza|tele|neki|meg|fel|oda|ide)' |
-cat; exit
-
 awk 'length($0)>2 && length($0)<8' |
 sort -k1.3 |
 sed 7776q |
