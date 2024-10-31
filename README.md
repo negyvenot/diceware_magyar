@@ -1,4 +1,5 @@
 # Magyar diceware file generáló script
+## csak ékezet nélküli, értelmes magyar szavakkal
 
 Szerző: Müller Miklós <muller.miklos@gmail.com>
 
