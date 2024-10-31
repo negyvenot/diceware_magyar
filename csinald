@@ -10,8 +10,8 @@ lista=$(
 	sed s,^,https://hu.wiktionary.org,
 )
 
-echo "# Magyar Diceware lista"
-echo -n "# "
+#echo "# Magyar Diceware lista"
+#echo -n "# "
 
 BETU_DIR=$(mktemp -d)
 for i in $lista
